@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  background-color: lightblue;
+  border-radius: 20px;
+  color: black;
+  width: 792px;
+  height: 1114.56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+.image-wrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+.image {
+  width: 300px;
+  /* height: 200px; */
+  border-radius: 30px;
+}
+#desc {
+  width: 20rem;
+}
