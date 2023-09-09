@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { usePDF } from "react-to-pdf";
+import WithoutPackage from "./WithoutPackage/WithoutPackage";
 
 function App() {
   const { toPDF, targetRef } = usePDF({ filename: "page.pdf" });
@@ -25,7 +26,8 @@ function App() {
           magnam vero!
         </p>
       </div>
-      <button onClick={() => toPDF()}>Generate PDF</button>
+      <button onClick={() => toPDF()}>Generate PDF with package</button>
+      <WithoutPackage/>
     </>
   );
 }
